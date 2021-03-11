@@ -1,0 +1,84 @@
+/*.coolTitle{
+	text-align: center;
+	font-family: 'Oswlad', Helvetica, sans-serif;
+	font-size: 40px;
+	transform: skew(-10deg);
+	letter-spacing: 4px;
+	word-spacing: -8px;
+	color: tomato;
+	text-shadow: 
+	-1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+*/
+
+*{
+	margin: 0.5rem;
+
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+body{background: linear-gradient( to right, #3366ff 40%, #66ff99 77%)}
+
+h1{
+	text-align: center;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+#enter{
+ background-color: rgb(10,200,50); margin-bottom: 0.8rem; margin-left: 6rem;
+}
+
+#enter:hover{
+	background-color: rgb(210,120,250);
+}
+
+#userinput{
+
+	position: relative;
+
+	align-content: center;
+
+	
+}
+
+#inputCenter{
+
+	display: inline-block;
+
+	align-items: center;
+
+	margin-left:40%;
+}
+
+p{
+	text-align: center; text-transform: uppercase;
+}
+
+li{
+	font-size: 2rem; font-weight: bold;
+}
+
+button{
+	margin-right:10rem;  padding: 3%;  border-radius: 1rem; width: 60%;  background-color: powderblue; cursor: pointer;
+}
+
+button:hover{
+	background-color: tomato;
+}
+
+input{
+	border-radius: 3rem; height: 1.5rem; width: 14rem; text-align: center; flex-wrap: wrap;
+}

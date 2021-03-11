@@ -1,0 +1,33 @@
+
+a:link {
+    text-decoration: none; color: rgb( 50, 200, 200);
+}
+
+a:visited {
+    text-decoration: none; color: rgb( 50, 200, 200);
+}
+
+a:hover {
+    text-decoration: underline; color:rgb( 250, 150, 200);
+}
+
+a:active {
+    text-decoration: underline; color: rgb( 250, 100, 200);
+}
+
+h1{text-align: center; border: 5px dotted green; padding: 10px; background-color: rgba(20, 150, 150, 0.4);}
+
+body{background-image: url(http://kb4images.com/images/pattern-wallpaper/38033541-pattern-wallpaper.jpg); background-size:contain;}
+
+form{color: white}
+
+input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+span{font-size: 15px}  

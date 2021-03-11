@@ -1,0 +1,83 @@
+/* --------------------------------------------------------
+Style Sheet for ("Website's Name")
+
+version: 1.1
+last modified: 08.06.2018 by Eddy Velasquez
+author: SalmanStarneo
+email: author@domain.com
+website: http://yourwebsite.com
+----------------------------------------------------------*/
+
+body{
+	background-color: #36454f;
+    background-image: url(https://secure.img2-ag.wfcdn.com/im/67533018/resize-h310-w310%5Ecompr-r85/3827/38275246/dazzling-dimensions-shining-sisal-33-x-21-wallpaper-roll-set-of-2.jpg);
+}
+
+/* links */
+a:link {
+     text-decoration: none;
+     color: rgb( 50, 100, 200);
+}
+ a:visited {
+     text-decoration: none;
+     color: rgb( 50, 100, 200);
+}
+ a:hover {
+     text-decoration: underline;
+     color: rgb( 50, 10, 200);
+}
+ a:active {
+     text-decoration: underline;
+     color: rgb( 50, 100, 200);
+}
+
+/* tags */
+ p {
+     color: rgb( 50, 100, 250);
+     display: inline-block;
+     font-family: "Do Hyeon";
+     font-size: 24px;
+     border: 5px dashed powderblue;
+     padding: 5px;
+     margin: 10px;
+     background-color: rgba(100,240,10, 0.2);
+}
+ li {
+    color: gold;
+    line-height: 24px;
+    font-size: 120%;
+}
+ h1 {
+    text-align: center;
+    color: green;
+}
+ img {
+    cursor: help;
+}
+ span {
+     font-size: 2rem;
+}
+
+/* classes */
+ .alola {
+    border: 5px solid powderblue;
+     font-family: "Do Hyeon", sans-serif;
+     background-color: rgba(225, 20, 20, 0.4);
+}
+ .litten {
+    color: white;
+    font-size: 5em;
+}
+ .poplio {
+    color: pink;
+}
+
+/* html element ID */
+ #div2 {
+    text-align: center;
+    background-color: rgba(0, 225, 225, 0.2);
+}
+ #div3 {
+    text-align: center;
+    background-color: rgba(50, 250, 20 , 0.2);
+}

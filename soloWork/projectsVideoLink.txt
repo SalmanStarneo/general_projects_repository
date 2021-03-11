@@ -1,0 +1,16 @@
+Website the uses JDBC technology:
+https://www.youtube.com/watch?v=rBkXhT_fwO0
+
+Initial software design of the website that uses JDBC technology:
+https://youtu.be/7QVGiTyl2xY
+
+Screen saver made using Java processing Library:
+- sun version:
+https://youtu.be/kEIHs-tjRFQ
+
+- moon version:
+https://youtu.be/FpJllRVE9as
+
+My first mobile app:
+https://youtu.be/3ZLHmyjXEgg
+

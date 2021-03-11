@@ -1,0 +1,20 @@
+You'll notice the folder structure I created. This is a basic organization of files and you will see this a lot. It an get complex with many different type of files.Be organized and save yourself a lot of trouble later on.
+
+
+
+HTML FILE - Changes made
+
+I re-formated the code for better readability. Remember, you are coding for yourself or another person. Make your code easy to read.
+
+
+CSS FILE - the name "styles" is very common and you will see this alot
+
+I re-formated the code for better readability. 
+
+1. added author and update comments at top. The version of the file is 1.1 because you are the original creator and I am the second editor making minor changes. A big change would be 2.0
+
+2. CHARCOAL BK COLOR - in case the background image fails to load (It's always a bad idea to "hot link" to an image from the web)
+
+3. added a couple of missing ";" at the end of your statements. You'll notice the change in font size with the "litten" css class because the browser can now understand the code.
+
+4. When using quotes, use double ( " " ) quotes for HTML and CSS and single ( ' ' ) quotes for Javascript. Modern browsers are very forgiving when you make a mistake but it is for your benefit when looking over old code. There will be no confusion as to what you were trying to reference in the code if you have an error.

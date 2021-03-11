@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://centralaz.edu/wp-content/uploads/2017/08/Navy-Blue-HD-Wallpaper.jpg"); background-size: contain;
+}
+
+h1 {
+    color: orange;
+    margin-right: 100px; font-size: 300%; font-family: sans-serif;}
+
+a:visited{color: orange; background-color: transparent; text-decoration: none; }
+
+p {border-style: solid ; background-color: gray; padding:12px}
+
+p.mix{border-style: dotted solid
+double groove; background-color: powderblue; padding:11px}
+
+img{ display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+table, th, td { border-style: solid; border-color: white ; background-color: violet; font-family:'Do Hyeon', sans-serif; text-align: center;}
+
+
+footer{ clear: both; text-align: center; color: white; }

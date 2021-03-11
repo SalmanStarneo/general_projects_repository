@@ -1,0 +1,449 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  
+  margin: 0%;
+  
+  padding: 0%;
+
+  background-image: url("../Images/background.jpg");
+
+  position: relative;
+
+  font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.Header{
+  
+  background-image: url("../Images/Header.png");
+
+/*  height: 100%;
+*/
+  width: 100%;
+
+  margin: auto;
+
+  padding-bottom: 20rem;
+
+  position: relative;
+
+/*  background-size: cover;
+*/}
+
+#homeLinks a{
+
+  text-decoration: none;
+}
+
+#homeLinks a:hover{
+
+  color: darkgoldenrod;
+
+  background-color: #b3ffe0;
+}
+
+
+#homeLinks ul{
+  
+  list-style-type: none;
+  
+  margin: auto;
+  
+  padding-bottom: 1rem;
+  
+  overflow: hidden;
+  
+  background-color: rgb(100,200,100);
+
+  border: 0.5rem black solid; 
+  
+}
+
+#homeLinks li{
+  
+  display: inline-block;
+
+  margin: auto;
+}
+
+#Sub a{
+
+  border-right: 1vh black solid;
+
+  margin-top: 0%;
+
+  margin-bottom: 0%;
+
+  font-weight: bold;
+
+  font-size: 2rem;
+
+
+}
+
+#Current a{
+	border-right: 1vh darkorange solid;
+
+  	font-weight: bold;
+
+  	font-size: 2rem;
+
+  	margin-top: 0%;
+
+  	margin-bottom: 0%;
+
+  	color: rgb(230,2,23);
+
+}
+
+.navList a{
+  
+  display: block;
+  
+  color: black;
+  
+  text-align: center;
+  
+  padding: 1rem;
+
+  margin: auto;
+
+  cursor: pointer;
+}
+
+
+
+#main{
+  background-color: #EEEEEE;
+  
+  margin: auto;
+  
+  width: 90%;
+  
+  min-height: 80%;
+  
+  border: 0.5vh black solid;
+  
+  margin-bottom: 1%;
+  
+}
+
+#homeTitle h1 {
+  
+  font-size: 5rem;
+  
+  color:darkgreen;
+  
+  text-align: left;
+  
+  margin-top: 5%;
+
+  margin-left: 15%;
+
+  text-shadow: 1vh 1vh darkorange;
+
+}
+
+#homeTitle a {
+  text-decoration: none;
+}
+
+
+#homeTitle{
+
+  margin-top: 2%;
+
+  border-top: 2% black solid;
+}
+
+#content{
+  
+  min-height: 85%;
+  
+}
+
+.textWithImages{
+  margin: 5%;
+}
+
+.textWithImages p{
+  
+  display: inline-block;
+  
+  vertical-align: top;
+  
+  width:65%;
+
+  font-size: 2rem;
+  
+  /*font-style: */
+}
+
+.textWithImages img{
+  
+  display: inline-block;
+
+  margin-left: 5%;
+
+  padding;grid-auto-flow;
+  
+  border-radius: 10%;
+  
+  width: 20%;
+  
+}
+
+.textWithImages img:hover{ transform: scale(1.1); }
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.TweetContainers {
+
+display: inline-block;
+
+margin: auto;
+
+padding: 3%;
+
+/*flex-wrap: wrap;
+*/
+width: 93.9%;
+
+border: 0.1vh double darkgreen;
+  
+background-color: palegoldenrod;
+
+}
+
+.TweetContainers h2{
+
+	color: #ff4000;
+
+	text-align: center;
+  
+	font-style: oblique;
+  	
+  	border-bottom: 2.3rem dotted darkgreen;
+  
+  	font-size: 2rem;
+}
+
+#NewsTweet{
+  
+  display:inline-block;
+  
+  width: 28%;
+  
+  height: 10%;
+  
+  margin: 2%;
+
+  padding: auto;
+
+  justify-content: space-between;
+  
+}
+
+#NewsTweet h3{
+
+	font-weight: bold;
+
+	font-size: 2rem;
+
+	text-decoration: underline;
+
+	font-stretch: extra-condensed;
+
+}
+
+#breakingLine{
+
+ height: 5%;
+
+ margin: 5%;
+
+ padding: auto;
+}
+
+#mainSpin{
+
+  border-radius: 50%;
+}
+
+#appStore img{
+
+  width: 40%;
+
+  height: 35%;
+
+  position: relative;
+
+  display: inline-block;
+
+ align-content: center;
+
+  margin-left: 25rem;
+
+  margin-top: 10rem;
+}
+
+#appStores button{
+
+  width: 20%;
+
+  background-color: darkorange;
+}
+
+#myImage{
+
+  width: 10%;
+
+}
+
+.aboutMii table{
+  
+  width: 70%;
+
+  border: 0.5rem solid darkgreen;
+
+  margin: auto;
+  
+  background-color: silver;
+}
+
+.aboutMii th, td {
+
+  text-align: center;
+
+  font-weight: bold;
+
+  font-size: 1.5rem;
+
+  text-decoration: underline;
+
+  text-decoration-style: solid;
+
+  background-color: powderblue;
+
+  border: 0.5rem solid darkgreen;
+
+  padding: 3%;
+
+  margin: 20rem;
+}
+
+#slidesBox{
+  padding: auto;
+
+  margin-left: 23rem;
+
+  align-content: center;
+
+}
+
+#slidesBox button{
+
+  background-color: orange;
+
+  padding: 10px;
+
+  margin-left: 21%;
+}
+
+.mySlides {
+
+  display:none;
+
+  width: 40rem;
+
+  height: 40rem;
+
+  justify-content: center;
+
+  align-content: center;
+
+  margin-right: 90rem;
+
+  flex-wrap: wrap;
+
+}
+
+.secondSlides {
+
+  display:none;
+
+  width: 40rem;
+
+  height: 40rem;
+
+  justify-content: center;
+
+  align-content: center;
+
+  margin-right: 90rem;
+
+  flex-wrap: wrap;
+
+}
+
+#slideshow { 
+    margin: 5% auto; 
+    position: relative; 
+    width: 40%; 
+    height: 40%; 
+    padding: 5%; 
+    box-shadow: 0 0 20rem rgba(0,0,0,0.4); 
+}
+
+
+#slideshow  div { 
+    position: absolute; 
+    top: 0.1rem; 
+    left: 1rem; 
+    right: 1rem; 
+    bottom: 0.1rem; 
+}
+
+footer{
+
+  background-color: #00b36b;
+
+  text-align: center;
+  
+  padding: 2.4rem;
+  
+  color: azure;
+  
+  text-decoration: overline;
+  
+}
+
+footer:hover{
+  
+  color: orange;
+}
+
